@@ -1,0 +1,89 @@
+.page-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+.category-filter {
+}
+
+.ul-category-filter {
+  background-color: #ffffff;
+  width: 260px;
+  height: auto;
+  padding: 12px;
+  margin-right: 24px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.h3-category-filter {
+  text-align: left;
+  margin-top: 0;
+}
+
+.filter-item {
+  font-size: 20px;
+  padding: 4px 4px;
+  text-align: left;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.filter-item:hover {
+  cursor: pointer;
+  background-color: #cdcacf;
+}
+
+.filter-checkbox {
+  width: 20px; /* Chiều rộng checkbox */
+  height: 20px; /* Chiều cao checkbox */
+  accent-color: black; /* Màu của checkbox (hỗ trợ trên trình duyệt hiện đại) */
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.women-clothing {
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 14px;
+  padding: 8px;
+}
+.category-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 100px;
+  padding-left: 8px;
+}
+.product-list {
+  display: flex;
+  gap: 40px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+.product-card {
+  min-width: 200px;
+  text-align: center;
+}
+.product-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+}
+/* .product-name {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.product-price {
+  font-size: 18px;
+  color: red;
+}
+.discount {
+  font-size: 14px;
+  color: #7346f3;
+  margin-left: 8px;
+} */
